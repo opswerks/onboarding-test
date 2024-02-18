@@ -1,0 +1,3 @@
+aws ecs create-cluster \
+    --cluster-name onboarding-cl \
+    --tags key=team,value=cloud key=env,value=training key=project,value=asmbl
